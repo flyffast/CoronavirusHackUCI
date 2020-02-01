@@ -8,8 +8,9 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.post('/sms', (req, res) => {
   const twiml = new MessagingResponse();
   
+  const message = req.body.Body
   const location = req.body.FromCity + ', ' + req.body.FromState + ', USA';
-  twiml.message(location);
+  twiml.message(location + message);
   res.writeHead(200, {'Content-Type': 'text/xml'});
   res.end(twiml.toString());
 });
