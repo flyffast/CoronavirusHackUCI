@@ -17,17 +17,33 @@ options.destinations[3] = 'Tempe, AZ, USA'; //https://www.azcentral.com/story/ne
 options.destinations[4] = 'Snohomish County, WA, USA';//https://www.spokesman.com/stories/2020/jan/31/washington-state-coronavirus-patient-treated-with-/
 options.destinations[5] = 'Santa Clara County, CA, USA';//https://www.latimes.com/california/story/2020-01-31/all-195-americans-who-fled-coronavirus-in-china-under-quarantine-at-california-base
 
+let outBreakCount = 6;
 
 const data  = GoogleDistanceApi.distance(options, (err, data) => {
     if(err) {
         return console.log(err);
     }
     
-    let blah = data[0].distance;
-    blah = blah.slice(0, blah.length-3);
-    let miles = blah * 0.621371
+    let miles = [3];
+    let blah= "";
+   
+    //console.log(data);
+    for(i = 0; i < outBreakCount; i++)
+    {
+      //blah will contain integer of distance after converting string
+      blah = data[i].distance;
+      blah = blah.slice(0, blah.length-3);
+      
+      blah = blah.replace(/,/g, ""); //remove commas in numbers
+      parseInt(blah, 10);
+     
+      miles[i] = 0;
 
-    miles = Math.round(miles*100)/100.0;
-    
-    console.log(miles);
+      miles[i]=blah * 0.621371
+
+      miles[i] = Math.round(miles[i]*100)/100.0;
+
+    }
+
 });
+
