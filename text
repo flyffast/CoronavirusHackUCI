@@ -1,1 +1,15 @@
-hi
+This program is to allow users to register their phone number into our system so that they can be alerted when there are confirmed
+cases of the coronavirus.
+
+Using Twilio's API and Google Cloud API we are able to search for keywords to find the confirmed cases and find the location of
+the registerd phones. When we do find one we text the user the location that was confirmed and how far it is, in miles, away from them.
+
+Texting:
+Use #0 for our command prompt
+#1 for how many confirmed cases are there in the US
+#2 CDC website about the Coronavirus
+#3 WHO Tweet's about Coronavirus
+#4-#9 are Easter Eggs
+
+
+Created by Kit Ma, Tin Luu, Travis Nguyen @HackUCI2020
