@@ -179,6 +179,11 @@ var methods = {
             twiml.message("▒▒▒▒████████▒▒▒▒");
 
           }
+          else if(calcCity[1] == '9') //not ready yet
+          {
+            twiml.message("Hello from Kit, Tin, Tra");
+
+          }
           else{
             if(smallest < 15.0)
             {
