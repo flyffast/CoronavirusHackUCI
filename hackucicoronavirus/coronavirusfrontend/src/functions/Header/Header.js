@@ -2,8 +2,13 @@ import React, { useState }  from "react";
 import {Button} from 'reactstrap';
 import './Header.css';
 import axios from 'axios';
-
-
+// /**************************************************************/
+// const calculate =  require('c:/Users/Travis/Documents/GitHub/CoronavirusHackUCI/hackucicoronavirus/coronavirusfrontend/src/functions/Header/calculateDistance')
+// const http = require('http');
+//  const express = require('express');
+// const MessagingResponse = require('twilio').twiml.MessagingResponse;
+// const bodyParser = require('body-parser')
+// /*************************************************************** */
 /* Asks for Name, Location, and Phone Number*/
 
 function Header(){
@@ -24,6 +29,21 @@ function Header(){
             'location': enteredLocation,
             'number':enteredNumber
         }
+
+        /************************************************************************* */
+        // const app = express();
+        // app.use(bodyParser.urlencoded({extended: false}))
+    // app.post('/sms', (req, res) => {
+    //     const twiml = new MessagingResponse();
+      
+    //         calculate.data.distance(information.location, twiml, res);
+      
+    //   });
+      
+    //   http.createServer(app).listen(1337, () => {
+    //     console.log('Express server listening on port: 1337');
+    //   });
+      /************************************************************************* */
         e.preventDefault();
         axios.post('send this info to this link',information).then(res => {
             console.log(res.data);
@@ -32,6 +52,9 @@ function Header(){
             window.location = './confirmation';
         })
     }
+    // const app = express();
+    // app.use(bodyParser.urlencoded({extended: false}))
+    
 
 
     return(

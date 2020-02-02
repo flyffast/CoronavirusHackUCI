@@ -20,7 +20,7 @@ app.post('/sms', (req, res) => {
   if(messages.length > 0 && messages[0] == '#')
   {
     console.log("USER INPUT");
-    calculate.data.distance(messages, twiml, res);
+      calculate.data.distance(messages, twiml, res);
   }
   else
   {
