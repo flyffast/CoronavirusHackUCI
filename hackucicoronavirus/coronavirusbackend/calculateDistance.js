@@ -165,7 +165,7 @@ var methods = {
             twiml.message("┊ ┊ ★");
             twiml.message("┊ ✯");
             twiml.message("★");
-            twiml.message("Please Sponsor Us Twilio ;)");
+            //twiml.message("Please Sponsor Us Twilio ;)");
 
           }
           else if(calcCity[1] == '8') //not ready yet
