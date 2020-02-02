@@ -1,0 +1,98 @@
+/* Top Part */
+.background{
+    background-color: rgba(85, 59, 128, 0.445);
+    max-width: 1200px;
+    min-height:200px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 4px;
+    
+}
+.logocw{
+    padding: 20px;
+}
+.home{
+    position: relative; left: 250px; top: -52px;
+    background-color: rgba(85, 59, 128, 0.445);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.home:hover{
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(83, 173, 83);
+    outline-color: black;
+}
+
+.about{
+    position: relative; left: 250px; top: -52px;
+    background-color: rgba(85, 59, 128, 0.445);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.about:hover{
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(83, 173, 83);
+    outline-color: black;
+}
+
+.meet{
+    position: relative; left: 250px; top: -52px;
+    background-color: rgba(85, 59, 128, 0.445);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.meet:hover{
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(83, 173, 83);
+    outline-color: black;
+}
+
+.logo{
+    border: black;
+    position: relative; left:15px; top: 15px;
+    font-size: 30px;
+    color: white;
+    min-width:100px;
+    display:inline-block;
+
+}
+
+.title{
+    position: relative; left: 355px; bottom: 70px;
+    display:inline-block;
+    font-family: Impact;
+    font-size: 50px;
+    
+}
+
+/* Middle */
+.text{
+    font-size: 30px;
+    text-align: center;
+    position: relative; right: 200px;
+}
+
+.bacteria{
+    position: relative; left: 650px; top: 20px;
+}

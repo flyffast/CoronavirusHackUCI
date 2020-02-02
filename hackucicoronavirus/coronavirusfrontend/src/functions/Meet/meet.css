@@ -1,0 +1,177 @@
+body{
+overflow-x:hidden;
+}
+/* Top Part */
+.background{
+    background-color: rgba(85, 59, 128, 0.445);
+    min-width: 2000px;
+    min-height:100px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 4px;
+    
+}
+.logocw{
+    padding: 20px;
+}
+.home{
+    position: relative; left: 250px; top: -52px;
+    background-color: rgba(85, 59, 128, 0.445);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.home:hover{
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(83, 173, 83);
+    outline-color: black;
+}
+
+.about{
+    position: relative; left: 250px; top: -52px;
+    background-color: rgba(85, 59, 128, 0.445);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.about:hover{
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(83, 173, 83);
+    outline-color: black;
+}
+
+.meet{
+    position: relative; left: 250px; top: -52px;
+    background-color: rgba(85, 59, 128, 0.445);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.meet:hover{
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(83, 173, 83);
+    outline-color: black;
+}
+
+.logo{
+    border: black;
+    position: relative; left:15px; top: 15px;
+    font-size: 30px;
+    color: white;
+    min-width:100px;
+    display:inline-block;
+
+}
+
+.title{
+    position: relative; left: 425px; bottom: 70px;
+    display:inline-block;
+    font-family: Impact;
+    font-size: 50px;
+    
+}
+
+/*Middle Part*/
+.messagetitle{
+    position: relative; top: 0px; left: 525px;
+    font-size: 50px;
+    outline-style: bold;
+    text-decoration: underline;
+}
+
+.photos{
+    position: relative; left: 100px; top: 30px;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 10px;
+    height: 650px;
+    width: 1300px;
+}
+.tra{
+    position: relative; left: 100px; top: 30px;
+    border-radius:50%;   
+}
+.tratxt{
+    position: relative; left: 250px; bottom: 300px;
+    font-size:40px;
+    outline-style: bold;
+}
+.tratxt2{
+    position: relative; left: 215px; bottom: 290px;
+    font-size:30px;
+    color: rgb(194, 186, 186);
+}
+.tralink{
+    position: relative; left:200px; bottom: 870px;
+    display: inline-block;
+    background-color:none;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+}
+
+
+.tin{
+    position: relative; left: 175px; top: 30px;
+    border-radius:50%;
+}
+.tintxt{
+    position: relative; left:666px; bottom: 390px;
+    font-size:40px;
+    outline-style: bold;
+}
+.tintxt2{
+    position: relative; left: 600px; bottom: 385px;
+    font-size:30px;
+    color: rgb(194, 186, 186);
+}
+.tinlink{
+    position: relative; left:275px; bottom: 870px;
+    display: inline-block;
+    background-color:none;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+}
+.kit{
+    position: relative; left: 250px; top: 30px;
+    transform:rotate(90deg);
+    border-radius:50%;
+}
+.kittxt{
+    position: relative; left: 1050px; bottom: 480px;
+    font-size:40px;
+    outline-style: bold;
+}
+.kittxt2{
+    position: relative; left: 980px; bottom: 475px;
+    font-size:30px;
+    color: rgb(194, 186, 186);
+}
+.kitlink{
+    position: relative; left:350px; bottom: 870px;
+    display: inline-block;
+    background-color:none;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+}
+
