@@ -105,7 +105,7 @@ var methods = {
             twiml.message("List of options: \"#1\" for number Corona Virus Cases in US;" +
                                             " \"#2\" for link to CDC info;" + 
                                             " \"#3\" for link to WHO Twitter;" +
-                                            " \"#4\" - \"#6\" for a surprise;");
+                                            " \"#4\" - \"#9\" for a surprise;");
           }
           else if(calcCity[1] == '1') //not ready yet
           {
